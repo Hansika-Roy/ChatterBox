@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <div id="back">
+    <div id="card">
+      <h2 style="text-align: center;">Chatter Box</h2>
+      <form action="/chat" method="POST">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="submit" value="Join">
+      </form>
+      <p>You need to register to the app before watching the content, read <a href="#">Terms and Conditions</a> applied
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
